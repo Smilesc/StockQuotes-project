@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landTextMarginStart"
+        android:ems="@string/editTextEMS"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBaseline_toBaselineOf="@+id/search"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landSearchMarginStart"
+        android:layout_marginTop="@dimen/landSearchMarginTop"
+        android:layout_marginBottom="@dimen/landSearchMarginBot"
+        android:text="@string/search"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintStart_toEndOf="@+id/text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lastTradeTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/landEditTextMargins"
+        android:layout_marginBottom="@dimen/landEditTextMargins"
+        android:text="@string/lastTradeTimeDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toBottomOf="@+id/range"
+        app:layout_constraintStart_toStartOf="@+id/range"
+        app:layout_constraintTop_toTopOf="@+id/symbol" />
+
+    <TextView
+        android:id="@+id/lastTradePrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landStockPropertyFirstRowRightMargin"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:text="@string/lastTradePriceDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toBottomOf="@+id/change"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/symbol" />
+
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landStockPropertyFirstRowRightMargin"
+        android:text="@string/changeDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toBottomOf="@+id/range"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/range" />
+
+    <TextView
+        android:id="@+id/range"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landRangeMarginStart"
+        android:layout_marginBottom="@dimen/landRangeMarginBot"
+        android:text="@string/rangeDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landNameMargins"
+        android:layout_marginEnd="@dimen/landNameMargins"
+        android:text="@string/nameDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintBottom_toBottomOf="@+id/symbol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.371"
+        app:layout_constraintStart_toEndOf="@+id/symbol" />
+
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/landStockPropertyFirstRowRightMargin"
+        android:layout_marginTop="@dimen/landSymbolMarginTop"
+        android:text="@string/symbolDefault"
+        android:textColor="@color/dark"
+        android:textSize="@dimen/stockPropertyTextSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+</android.support.constraint.ConstraintLayout>

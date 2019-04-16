@@ -44,4 +44,34 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        outState.putString("text", text.getText().toString());
+
+        outState.putString("lastTradeTime", lastTradeTime.getText().toString());
+        outState.putString("lastTradePrice", lastTradePrice.getText().toString());
+        outState.putString("change", change.getText().toString());
+        outState.putString("range", range.getText().toString());
+        outState.putString("name", name.getText().toString());
+        outState.putString("symbol", symbol.getText().toString());
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle bundle) {
+        super.onRestoreInstanceState(bundle);
+
+        text.setText(bundle.getString("text"));
+        text.setSelection(text.getText().length());
+
+        lastTradeTime.setText(bundle.getString("lastTradeTime"));
+        lastTradePrice.setText(bundle.getString("lastTradePrice"));
+        change.setText(bundle.getString("change"));
+        range.setText(bundle.getString("range"));
+        name.setText(bundle.getString("name"));
+        symbol.setText(bundle.getString("symbol"));
+
+    }
 }

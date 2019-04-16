@@ -6,4 +6,20 @@
     <dimen name="editTextMarginTop">149dp</dimen>
     <dimen name="editTextMarginEnd">4dp</dimen>
 
+    <dimen name="landEditTextMargins">80dp</dimen>
+    <dimen name="landStockPropertyFirstRowRightMargin">44dp</dimen>
+
+    <dimen name="landTextMarginStart">46dp</dimen>
+    <dimen name="landSearchMarginStart">32dp</dimen>
+    <dimen name="landSearchMarginTop">45dp</dimen>
+    <dimen name="landSearchMarginBot">42dp</dimen>
+
+    <dimen name="landRangeMarginStart">325dp</dimen>
+    <dimen name="landRangeMarginBot">88dp</dimen>
+
+    <dimen name="landNameMargins">8dp</dimen>
+
+    <dimen name="landSymbolMarginTop">43dp</dimen>
+
+
 </resources>
