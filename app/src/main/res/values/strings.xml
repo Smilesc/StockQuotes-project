@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Stock Quotes</string>
+    <string name="search">Search</string>
+    <string name="hint">Stock symbol</string>
+
+    <string name="lastTradeTime">Last trade time: %s</string>
+    <string name="lastTradePrice">Last trade price: %s</string>
+    <string name="change">Change: %s%%</string>
+    <string name="range">Range: %s</string>
+    <string name="name">Name: %s</string>
+    <string name="symbol">Symbol: %s</string>
+
+    <string name="lastTradeTimeDefault">Last trade time:</string>
+    <string name="lastTradePriceDefault">Last trade price:</string>
+    <string name="changeDefault">Change:</string>
+    <string name="rangeDefault">Range:</string>
+    <string name="nameDefault">Name:</string>
+    <string name="symbolDefault">Symbol:</string>
+
+    <string name="notValidStock">Not a valid stock</string>
+
+    <string name="editTextEMS">10</string>
 </resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stockPropertyTextSize">20sp</dimen>
+    <dimen name="stockPropertyMargins">28dp</dimen>
+    <dimen name="editTextMarginStart">9dp</dimen>
+    <dimen name="editTextMarginTop">149dp</dimen>
+    <dimen name="editTextMarginEnd">4dp</dimen>
+
+</resources>

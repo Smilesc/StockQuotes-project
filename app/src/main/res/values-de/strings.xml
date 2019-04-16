@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aktienangebote</string>
+    <string name="search">Suchen</string>
+    <string name="hint">Aktiesymbol</string>
+
+    <string name="lastTradeTime">Letzter Handelszeit: %s</string>
+    <string name="lastTradePrice">Letzter Kurs: %s</string>
+    <string name="change">Veränderung: %s%%</string>
+    <string name="range">Kursbereich: %s</string>
+    <string name="name">Name: %s</string>
+    <string name="symbol">Symbol: %s</string>
+
+    <string name="lastTradeTimeDefault">Letzter Handelzeit:</string>
+    <string name="lastTradePriceDefault">Letzter Kurs:</string>
+    <string name="changeDefault">Veränderung:</string>
+    <string name="rangeDefault">Kursbereich:</string>
+    <string name="nameDefault">Name:</string>
+    <string name="symbolDefault">Symbol:</string>
+
+    <string name="notValidStock">Nicht ein gültige Aktie</string>
+
+    <string name="editTextEMS">10</string>
+</resources>

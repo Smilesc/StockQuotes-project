@@ -1,4 +1,4 @@
-package edu.cofc.stock;
+package com.mad.stockquotes;
 
 import android.util.Log;
 import org.json.JSONObject;
